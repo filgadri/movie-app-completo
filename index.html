@@ -4,29 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie App Adri</title>
     <link rel="stylesheet" href="index.css"> 
+    <title>Document</title>
 </head>
-<body>
 
-    <header>
-        <a class="home" href="carrousel.html">Home</a>
-        <form id="form">
-            <input type="text" placeholder="Search" id="search"
-            class="search">
-        </form>
-    </header>
+<header>
+    <div class="contenedor">
+        <h2 class="logotipo">APIMOVIES</h2>
+        <nav>
+            <a href="#" class="activo">Home</a>
+            <a href="#">Tv Shows</a>
+            <a href="home.html">Movies</a>
+            <a href="#">Just Released</a>
+            <a href="#">My List</a>            
+        </nav>
+    </div>
+</header>
 
-<div id="tags"></div>
+<main>
 
-<main id="main"></main>
-    
-<div class="pagination">
-    <div class="page" id="prev">Previous Page</div>
-    <div class="current" id="current">1</div>
-    <div class="page" id="next">Next Page</div>
+    <div class="pelicula-principal">
+        <div class="contenedor">
+            <h3 class="titulo">Interestellar</h3>
+            <p class="descripcion">
+                A team of explorers must find the human race a new home after Earth is struck with worldwide food shortages and corn is the most valuable food. Utilizing a mysterious wormhole, they explore strange new worlds and could find a home to save the human race.
+            </p>
+            <button role="button" class="boton"><i class="fas fa-play"></i>Watch</button>            
+            <button role="button" class="boton"><i class="fas fa-info-circle"></i>More info</button>
+           
+        </div>
+    </div>
+
+<div class="peliculas-recomendadas contenedor">
+    <div class="contenedor-titulo-controles">
+            <h3>Recommended Movies</h3>
+            <div class="indicadores">
+                
+            </div>
+    </div>
+
+    <div class="contenedor-principal">
+        <button role="button" id="flecha-izquierda" class="flecha-izquierda">
+            <i class="fa-solid fa-angle-left"></i></button>
+        
+        <div class="contenedor-carrousel">
+            <div class="carrousel">
+                <div class="pelicula">
+                    <a href="#"><img src=img/1.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/2.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/3.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/4.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/5.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/6.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/7.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/1.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/2.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/3.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/1.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/2.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/3.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/4.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/5.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/6.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/7.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/1.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/2.png alt="pelicula"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src=img/3.png alt="pelicula"></a>
+                </div>
+            </div>
+        </div>
+        
+        <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
 </div>
-    
-    <script src="app.js"></script>
-</body>
+</main>
+<script src="https://kit.fontawesome.com/5558049a68.js" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+<script src="carrousel.js"></script>
+</body>  
 </html>
