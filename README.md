@@ -2,7 +2,7 @@
 
 Este es un proyecto en el que se muestra la información de una API de películas de la web https://www.themoviedb.org/.
 
-⭕DEPLOY: movie-app-carrousel.netlify.app
+⭕DEPLOY: https://movie-app-carrousel.netlify.app
 
 🔹Lo que contiene el proyecto:
 Index: es la página de inicio con un carrousel de fotos y un botón de Movies que lleva a la página de Index
